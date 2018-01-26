@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [reagent "0.7.0"]
                  [hiccup "1.0.5"]
+                 [re-com "0.8.0"]
                  [org.clojure/clojurescript "1.9.946"]
                  [metosin/vega-tools "0.2.0"]]
 
@@ -36,6 +37,5 @@
                              [figwheel-sidecar "0.5.13"]
                              [com.cemerick/piggieback "0.2.2"]
                              [org.clojure/tools.nrepl "0.2.13"]]
-
-              :plugins [[cider/cider-nrepl "0.16.0-SNAPSHOT"]]
+              
               :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}})
